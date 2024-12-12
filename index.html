@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+       
+</head>
+<body>
+    <div class="msg_container hide">
+        <h3 id="msg" style="font-size: 30px; color: brown;">Winner</h3>
+        <button class="new_game">New Game</button>
+    </div>
+    <div class="main">
+    <h1>
+        Tic-Tac-Toe
+    </h1>
+    <form id="player-selection">
+        <label>
+            <input type="radio" name="second-player" value="user" checked> User vs User
+        </label>
+        <label>
+            <input type="radio" name="second-player" value="AI"> User vs AI
+        </label>
+    </form>
+    <div class="container">
+   <div class="game">
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+    <button  class="box"> </button>
+   </div>
+   
+</div>
+
+    
+<div class="reset_button"><button class="reset">Reset Game</button></div>
+</div>
+<script src="script.js"></script> 
+</body>
+</html>

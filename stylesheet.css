@@ -1,0 +1,97 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    padding-top:40px ;
+    background-color: rgb(91, 168, 136);
+
+}
+.container{
+   
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 50vmin;
+    width: 55vmin;
+    border: 2px solid whitesmoke;
+    padding: 10px;
+    border-radius:1rem ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:2.5vmin;
+}
+.box{
+    height: 15vmin;
+    width: 16vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5); 
+    font-size: 8vmin;
+    color: whitesmoke;
+
+}
+.reset{
+   padding:1rem;
+   border-radius: 1rem;
+   font-size: 1.25rem;
+   background-color: rgb(2, 46, 31);
+   color: aliceblue;
+   border: none;
+}
+.reset_button{
+    text-align: center;
+}
+.msg_container{
+    text-align: center;
+}
+.new_game{
+   padding:1rem;
+   border-radius: 1rem;
+   font-size: 1.25rem;
+   background-color: rgb(2, 46, 31);
+   color: aliceblue;
+   border: none;
+}
+.hide{
+    display: none;
+}
+#player-selection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 4px 439px 0px 427px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:rgb(98 181 152);
+}
+
+#player-selection label {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+#player-selection input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #6c63ff; /* Custom color for the radio button */
+}
+
+#player-selection input[type="radio"]:checked + label {
+    font-weight: bold;
+    color: #2c2c2c;
+}
+
+#player-selection input[type="radio"]:hover + label {
+    color: #555;
+}
